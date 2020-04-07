@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--for form-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <!--for icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+          .left{
+              left: 25%;
+              right: 25%;
+          }
+          .split{
+              height: 100%;
+              width: 50%;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              overflow-x: hidden;
+          }
+          #head{
+                background-color:#5BC0DE;
+                color: white;
+                padding-left: 20px;
+                padding-right: 30px;
+            }
+            .right-inner-addon {
+                position: relative;
+            }
+
+            .right-inner-addon input {
+                padding-right: 30px;
+            }
+
+            .right-inner-addon i {
+                position: absolute;
+                right: 0px;
+                padding: 10px 30px;
+                pointer-events: none;
+            }
+            .fa-google {
+                background: #dd4b39;
+                color: white;
+            }
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="split left">
+            <div id="head">
+                <table height="100%" width="100%">
+                    <tr>
+                        <td><img src="epam.png" height="50" width="100"></td>
+                        <td><b style="font-size: 35px;">Sign in</b></td>
+                        <td><p style="float: right;font-size: 30px;">X</p></td>
+                    </tr>   
+                </table>
+            </div>
+            <form action="#" style="padding-block-start: 70px;">
+                <div class="right-inner-addon">    
+                    <i class="fa fa-envelope fa-lg fa-fw"></i>
+                    <input type="email" class="form-control"  placeholder="mail@example.com" name="email">
+                    <br>
+                    <i class="fa fa-lock fa-lg fa-fw"></i>
+                    <input type="password" class="form-control"  placeholder="password" name="password">
+                    <br><br>
+                    <button class="form-control" style="background-color:#5BC0DE; color: white;"><b>SIGN IN</b></button>
+                </div>
+            </form>  
+            <div>
+                <a href="#" style="margin-right:560px;">Forgot your password?</a>
+                 <a href="#">Register!</a>
+             </div>
+             <br>
+             <div>
+                <h4>
+                    <center>
+                    -------------------------------------------------------------
+                    OR
+                    ------------------------------------------------------------
+                    </center>
+                </h4>       
+             </div>
+             <br><br>
+             <div>
+                 <button class="form-control"  style="background-color:#3B5998;"><a href="#" class="fa fa-facebook fa-lg fa-fw"></a></button>
+                 <br>
+                 <button class="form-control" style="background-color:#dd4b39;"><a href="#" class="fa fa-google fa-lg fa-fw"></a></button>
+                 <br><br>
+                 <button class="form-control" style="background-color:#c7ea46;font-size: 20px;color: white;"><<b> EPAM LOGIN </b>></button>
+             </div>
+        </div>
+    </body>
+</html>
+
